@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	color: #333;
+	background: #ececec;
+	font: 35px/37px arial, helvetica, sans-serif;
+}
+form, fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+input, select, textarea {
+	vertical-align: middle;
+	font: 100% arial, sans-serif;
+	outline:none;
+}
+.traffic-light{
+	margin:46px auto 0;
+	width:200px;
+	background:#333;
+	border:5px solid #ccc;
+	border-radius:11px;
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(219,219,219,1);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(219,219,219,1);
+	box-shadow: 0px 0px 5px 5px rgba(219,219,219,1);
+	padding:31px 0 0;
+}
+.traffic-light .circle{
+	width:100px;
+	border:5px solid #cdcdcd;
+	border-radius:100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	margin: 20px auto;
+	height:70px;
+	color:#d9e21c;
+	text-align: center;
+	padding:30px 0 0;
+	background:#4e4f54;
+}
+.traffic-light .green{
+	background:#0f670d;
+}
+.traffic-light .yellow{
+	background:#d9e21c;
+}
+.traffic-light .red{
+	background:#e2251c;
+}
+.traffic-light .gray{
+	background:#4e4f54;
+}
